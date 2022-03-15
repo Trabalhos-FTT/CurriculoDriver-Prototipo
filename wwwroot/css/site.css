@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+
+:root {
+    --first-color: #181818;
+    --second-color: #202124;
+    --first-color-light: #FFB2FF;
+    --first-color-dark: #B64FC8;
+    
+    --body-font: 'Nunito', sans-serif;
+    --normal-font-size: 1rem;
+    --z-fixed: 100
+}
+
+td i {
+    cursor: pointer;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="../wwwroot/lib/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../wwwroot/css/site.css">
+    <link rel="stylesheet" href="../wwwroot/css/sidebar.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body id="body-pd">
+
+    <header class="header" id="header">
+        <div class="header_toggle">
+            <i class='bx bx-menu' id="header-toggle"></i>
+        </div>
+    </header>
+
+    <section id="sidebar">
+        <div class="l-navbar" id="nav-bar">
+            <nav class="nav">
+                <div>
+                    <a href="#" class="nav_logo">
+                        <i class='bx bx-layer nav_logo-icon'></i> <span class="nav_logo-name">Currículo Driver</span>
+                    </a>
+                    <div class="nav_list">
+                        <a href="#" class="nav_link active">
+                            <i class='bx bx-search-alt-2 nav_icon'></i> <span class="nav_name">Visualizar</span>
+                        </a>
+                        <a href="#" class="nav_link">
+                            <i class='bx bx-plus-circle nav_icon'></i> <span class="nav_name">Cadastrar</span>
+                        </a>
+                        <a href="#" class="nav_link">
+                            <i class='bx bx-minus-circle nav_icon'></i> <span class="nav_name">Deletar</span>
+                        </a>
+                        <a href="#" class="nav_link">
+                            <i class='bx bx-edit nav_icon'></i> <span class="nav_name">Editar</span>
+                        </a>
+                    </div>
+                </div>
+                <a href="#" class="nav_link">
+                    <i class='bx bx-download nav_icon'> </i> <span class="nav_name">Download</span>
+                </a>
+            </nav>
+        </div>
+    </section>
+
+    <main class="h-100 w-100">
+        <h4>Visualizar Currículos</h4>
+
+        <table id="visualizar" class="table w-75 mt-4">
+            <thead class="table-dark">
+                <th scope="col">ID</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Data</th>
+                <th scope="col">Ação</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>André</td>
+                    <td>23/02/2022</td>
+                    <td><i title="Download" class='bx bx-download nav_icon'></i></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Gustavo</td>
+                    <td>05/07/2022</td>
+                    <td><i title="Download" class='bx bx-download nav_icon'></i></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Murilo</td>
+                    <td>16/11/2022</td>
+                    <td><i title="Download" class='bx bx-download nav_icon'></i></td>
+                  </tr>
+            </tbody>
+        </table>
+
+        <div class="w-75 mt-2 ">
+
+        </div>
+    </main>
+
+</body>
+
+</html>
+
+<script src="../wwwroot/lib/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+<script src="../wwwroot/js/site.js"></script>
