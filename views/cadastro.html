@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar</title>
+
+    <link rel="stylesheet" href="../wwwroot/lib/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../wwwroot/css/site.css">
+    <link rel="stylesheet" href="../wwwroot/css/sidebar.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body id="body-pd">
+
+    <header class="header" id="header">
+        <div class="header_toggle">
+            <i class='bx bx-menu' id="header-toggle"></i>
+        </div>
+    </header>
+
+    <section id="sidebar">
+        <div class="l-navbar" id="nav-bar">
+            <nav class="nav">
+                <div>
+                    <a href="#" class="nav_logo">
+                        <i class='bx bx-layer nav_logo-icon'></i> <span class="nav_logo-name">Currículo Driver</span>
+                    </a>
+                    <div class="nav_list">
+                        <a href="../views/index.html" class="nav_link">
+                            <i class='bx bx-search-alt-2 nav_icon'></i> <span class="nav_name">Visualizar</span>
+                        </a>
+                        <a href="../views/cadastro.html" class="nav_link active">
+                            <i class='bx bx-plus-circle nav_icon'></i> <span class="nav_name">Cadastrar</span>
+                        </a>
+                        <a href="../views/deletar.html" class="nav_link">
+                            <i class='bx bx-minus-circle nav_icon'></i> <span class="nav_name">Deletar</span>
+                        </a>
+                        <a href="../views/editar.html" class="nav_link">
+                            <i class='bx bx-edit nav_icon'></i> <span class="nav_name">Editar</span>
+                        </a>
+                    </div>
+                </div>
+                <a href="../views/download.html" class="nav_link">
+                    <i class='bx bx-download nav_icon'> </i> <span class="nav_name">Download</span>
+                </a>
+            </nav>
+        </div>
+    </section>
+
+    <main class="h-100 w-100">
+        <h4>Cadastrar Currículos</h4>
+
+        <div class="w-75 mt-4">
+            <div class="row">
+                <div class="col-6 px-2 my-2">
+                    <label for="inputName" class="form-label">Nome:</label>
+                    <input type="text" class="form-control" id="inputName" placeholder="Digite seu nome">
+                </div>
+                <div class="col-3 px-2 my-2">
+                    <label for="inputCpf" class="form-label">CPF:</label>
+                    <input type="number" class="form-control" id="inputCpf" placeholder="123456789-10">
+                </div>
+                <div class="col-3 px-2 my-2">
+                    <label for="inputTel" class="form-label">Telefone</label>
+                    <input type="tel" class="form-control" id="inputTel" placeholder="(11) 912345678">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 px-2 my-2">
+                    <label for="inputEmail" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="teste123@email.com">
+                </div>
+                <div class="col-4 px-2 my-2">
+                    <label for="inputSalario" class="form-label">Preetensão Salarial:</label>
+                    <input type="number" class="form-control" id="inputSalario" placeholder="R$100,00">
+                </div>
+                <div class="col-4 px-2 my-2">
+                    <label for="inputCargo" class="form-label">Cargo Pretendido:</label>
+                    <input type="text" class="form-control" id="inputCargo" placeholder="Desenvolvedor">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 px-2 my-2">
+                    <label for="inputGenero" class="form-label">Gênero:</label>
+                    <select id="inputGenero" class="form-select" aria-label="Default select example">
+                        <option selected>Selecione</option>
+                        <option value="1">Masculino</option>
+                        <option value="2">Feminino</option>
+                        <option value="3">Não Binário</option>
+                    </select>
+                </div>
+                <div class="col-4 px-2 my-2">
+                    <label for="inputEstadoCivil" class="form-label">Estado Civil:</label>
+                    <select id="inputEstadoCivil" class="form-select" aria-label="Default select example">
+                        <option selected>Selecione</option>
+                        <option value="1">Solteiro</option>
+                        <option value="2">Casado</option>
+                        <option value="3">União Estável</option>
+                        <option value="4">Divorciado</option>
+                    </select>
+                </div>
+                <div class="col-4 px-2 my-2">
+                    <label for="inputformacao" class="form-label">Formação:</label>
+                    <select id="inputformacao" class="form-select" aria-label="Default select example">
+                        <option selected>Selecione</option>
+                        <option value="1">Ensino Médio Completo</option>
+                        <option value="2">Ensino Médio Incompleto</option>
+                        <option value="3">Ensino Superior Completo</option>
+                        <option value="4">Ensino Superior Incompleto</option>
+                    </select>
+                </div>
+            </div>            
+        </div>
+        <div class="w-75 text-end pr-0">
+            <button type="button" class="btn btn-dark">Cadastrar</button>
+        </div>
+    </main>
+</body>
+
+</html>
+
+<script src="../wwwroot/lib/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+<script src="../wwwroot/js/site.js"></script>

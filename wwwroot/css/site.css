@@ -14,3 +14,15 @@
 td i {
     cursor: pointer;
 }
+
+#visualizar i {
+    color: blue;
+}
+
+#deletar i {
+    color: red;
+}
+
+#editar i {
+    color: orange
+}
